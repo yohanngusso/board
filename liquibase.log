@@ -1,18 +1,18 @@
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408191938.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408210954.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408211004.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408211005.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408281807.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+fev. 06, 2026 10:17:44 AM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408191938.sql
+fev. 06, 2026 10:17:44 AM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408210954.sql
+fev. 06, 2026 10:17:44 AM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408211004.sql
+fev. 06, 2026 10:17:44 AM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408211005.sql
+fev. 06, 2026 10:17:44 AM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408281807.sql
+fev. 06, 2026 10:17:45 AM liquibase.changelog
+INFO: Reading from board.DATABASECHANGELOG
 Database is up to date, no changesets to execute
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+fev. 06, 2026 10:17:45 AM liquibase.changelog
+INFO: Reading from board.DATABASECHANGELOG
 
 UPDATE SUMMARY
 Run:                          0
@@ -21,21 +21,21 @@ Filtered out:                 0
 -------------------------------
 Total change sets:            5
 
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: UPDATE SUMMARY
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Run:                          0
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Previously run:               5
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Filtered out:                 0
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: -------------------------------
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Total change sets:            5
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Update summary generated
-ago. 29, 2024 10:37:26 AM liquibase.lockservice
-INFORMAÇÕES: Successfully released change log lock
-ago. 29, 2024 10:37:26 AM liquibase.command
-INFORMAÇÕES: Command execution complete
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: UPDATE SUMMARY
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: Run:                          0
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: Previously run:               5
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: Filtered out:                 0
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: -------------------------------
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: Total change sets:            5
+fev. 06, 2026 10:17:45 AM liquibase.util
+INFO: Update summary generated
+fev. 06, 2026 10:17:45 AM liquibase.lockservice
+INFO: Successfully released change log lock
+fev. 06, 2026 10:17:45 AM liquibase.command
+INFO: Command execution complete

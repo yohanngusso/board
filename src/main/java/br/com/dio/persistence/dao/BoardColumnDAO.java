@@ -86,7 +86,7 @@ public class BoardColumnDAO {
         }
     }
 
-    public Optional<BoardColumnEntity> findById(final Long boardId) throws SQLException{
+    public Optional<BoardColumnEntity> findById(final Long columnId) throws SQLException{
         var sql =
         """
         SELECT bc.name,
@@ -100,7 +100,7 @@ public class BoardColumnDAO {
          WHERE bc.id = ?;
         """;
         try(var statement = connection.prepareStatement(sql)){
-            statement.setLong(1, boardId);
+            statement.setLong(1, columnId);
             statement.executeQuery();
             var resultSet = statement.getResultSet();
             if (resultSet.next()){

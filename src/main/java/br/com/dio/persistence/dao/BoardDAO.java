@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @AllArgsConstructor
@@ -46,6 +48,22 @@ public class BoardDAO {
                 return Optional.of(entity);
             }
             return Optional.empty();
+        }
+    }
+
+    public List<BoardEntity> findAll() throws SQLException {
+        List<BoardEntity> entities = new ArrayList<>();
+        var sql = "SELECT id, name FROM BOARDS;";
+        try(var statement = connection.prepareStatement(sql)){
+            statement.executeQuery();
+            var resultSet = statement.getResultSet();
+            while (resultSet.next()){
+                var entity = new BoardEntity();
+                entity.setId(resultSet.getLong("id"));
+                entity.setName(resultSet.getString("name"));
+                entities.add(entity);
+            }
+            return entities;
         }
     }
 
